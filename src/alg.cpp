@@ -3,8 +3,8 @@
 int gcd(int a, int b) {
     while (b != 0) {
         int temp = b;
-        b = a % b;  // Остаток от деления
-        a = temp;   // Обновление a
+        b = a % b;  
+        a = temp;   
     }
     return a;
 }
